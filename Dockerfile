@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-MAINTAINER Bartek Mis <bartek.mis@gmail.com>
+MAINTAINER Jack Liu Shurui<jack.liu.s.r@gmail.com>
 
 # Install apache, PHP 7, and supplimentary programs. openssh-server, curl, and lynx-cur are for debugging the container.
 RUN apt-get update && \
